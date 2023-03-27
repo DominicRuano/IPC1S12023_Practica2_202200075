@@ -46,6 +46,7 @@ public class Menu extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Monkey (menu)");
 
         jLabel1.setText("Bienvenido a Monkey");
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);

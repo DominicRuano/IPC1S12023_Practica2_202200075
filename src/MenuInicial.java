@@ -122,13 +122,10 @@ public class MenuInicial extends javax.swing.JFrame {
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap())))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(61, 61, 61)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(jLabel3))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel7)))
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53))
@@ -146,11 +143,15 @@ public class MenuInicial extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jLabel2))
-                .addGap(132, 132, 132)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel7))
-                .addGap(37, 37, 37)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(132, 132, 132)
+                        .addComponent(jLabel6)
+                        .addGap(37, 37, 37))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel7)
+                        .addGap(50, 50, 50)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jLabel5))
@@ -332,7 +333,41 @@ public class MenuInicial extends javax.swing.JFrame {
         
         g.fillPolygon(puntosx7, puntosy7, 3);
         
+        g.setColor(new Color(0, 7, 20));
+        g.fillOval(250, 400, 20, 20);
+        g.fillOval(280, 400, 20, 20);
+        g.fillOval(310, 400, 20, 20);
         
+        g.setColor(new Color(0, 120, 36));
+        g.fillOval(250, 200, 20, 20);
+        g.fillOval(280, 200, 20, 20);
+        g.fillOval(310, 200, 20, 20);
+        g.fillOval(340, 200, 20, 20);
+        g.fillOval(250, 230, 20, 20);
+        
+        g.setColor(new Color(70, 0, 126));
+        g.fillOval(30, 200, 20, 20);
+        g.fillOval(60, 200, 20, 20);
+        g.fillOval(90, 200, 20, 20);
+        g.fillOval(120, 200, 20, 20);
+        g.fillOval(30, 230, 20, 20);
+        g.fillOval(60, 230, 20, 20);
+        g.fillOval(90, 230, 20, 20);
+        
+        g.setColor(new Color(120, 0, 80));
+        g.fillOval(30, 400, 20, 20);
+        g.fillOval(60, 400, 20, 20);
+        g.fillOval(90, 400, 20, 20);
+        g.fillOval(120, 400, 20, 20);
+        g.fillOval(30, 430, 20, 20);
+        g.fillOval(60, 430, 20, 20);
+        g.fillOval(90, 430, 20, 20);
+        g.fillOval(120, 430, 20, 20);
+        g.fillOval(30, 460, 20, 20);
+        g.fillOval(60, 460, 20, 20);
+        
+        
+        g.setColor(Color.black);
         g.drawString("Tiempo Transcurrido:", 150, 100); 
     }
 
